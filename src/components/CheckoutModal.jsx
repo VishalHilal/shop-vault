@@ -62,7 +62,7 @@ export default function CheckoutModal({ isOpen, onClose, totalAmount }) {
 
       // Clear cart and show success before redirect
       clearCart();
-      toast.success("Payment successful! Redirecting to Stripe...");
+      toast.success("Redirecting to Stripe...");
       
       // Small delay to show success message
       setTimeout(() => {
